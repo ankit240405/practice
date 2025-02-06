@@ -1,0 +1,393 @@
+* {
+    font-family: "DM Serif Text", serif;
+
+}
+body{
+    margin:0;
+}
+.main-ui{
+    background-image: url("trailer4.jpg");
+    background-size: cover;
+    height:280vh;
+}
+.video{
+    position: absolute;
+    top:200px;
+    left:350px;
+    padding-bottom: 20px;
+}
+.cards{
+    display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+    flex-wrap: wrap;
+    position: absolute;
+    top:600px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 50px;
+    font-family: "Lexend Giga", serif;
+
+}
+.card1{
+    height: 350px;
+    width:350px;
+    background-image:url("card4.jpg");
+    opacity:0.7;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    color:white;
+    font-weight: bolder;
+    border-radius: 10%;
+    position: relative; /* Position relative for absolute positioning of overlay */
+    box-shadow: 10px 10px 20px #f5d10d;
+
+}
+.card1:hover{
+    height: 355px;
+    width:355px;
+    opacity: 1;
+
+}
+.card2:hover{
+    height: 355px; 
+     opacity: 1;
+width:355px;
+}
+.card3:hover{
+    height: 355px;
+    width:355px;
+    opacity: 1;
+
+}
+.card4:hover{
+    height: 355px;
+    width:355px;
+    opacity: 1;
+
+}
+.card5:hover{
+    height: 355px;
+    width:355px;
+    opacity: 1;
+
+}
+.card6:hover{
+    height: 355px;
+    width:355px;
+    opacity: 1;
+}
+
+.card2{
+    height: 350px;
+    width:350px;
+    background-image:url("card2.jpg");
+    opacity:0.7;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    color:white;
+    font-weight: bolder;
+    border-radius: 10%;
+    position: relative; /* Position relative for absolute positioning of overlay */
+    box-shadow: 10px 10px 20px #f5d10d;
+
+}
+
+.card3{
+    height: 350px;
+    width:350px;
+    background-image:url("card3.jpg");
+    opacity:0.7;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    color:white;
+    font-weight: bolder;
+    border-radius: 10%;;
+    position: relative; /* Position relative for absolute positioning of overlay */
+    box-shadow: 10px 10px 20px #f5d10d;
+
+}
+.card4{
+    height: 350px;
+    width:350px;
+    background-image:url("card5.jpg");
+    opacity:0.7;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    color:white;
+    font-weight: bolder;
+    margin-top:30px;
+    border-radius: 10%;;
+    position: relative; /* Position relative for absolute positioning of overlay */
+    box-shadow: 10px 10px 20px #f5d10d;
+
+}
+.card5{
+    height: 350px;
+    width:350px;
+    background-image:url("card6.jpg");
+    opacity:0.7;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    color:white;
+    font-weight: bolder;
+    margin-top:30px;
+    border-radius: 10%;;
+    position: relative; /* Position relative for absolute positioning of overlay */
+    box-shadow: 10px 10px 20px #f5d10d;
+
+}
+.card6{
+    height: 350px;
+    width:350px;
+    background-image:url("card7.jpg");
+    opacity:0.7;
+    background-size: cover;
+    background-position: center;
+    border:none;
+    color:white;
+    font-weight: bolder;
+    margin-top:30px;
+    border-radius: 10%;;
+    position: relative; /* Position relative for absolute positioning of overlay */
+    box-shadow: 10px 10px 20px #f5d10d;
+
+}
+
+.para{
+    padding-top:10px;
+    padding-left:20px;
+}
+.content{
+    color:black;
+}
+.overlay-button{
+    position: absolute;
+    top:300px;
+    left:120px;
+    border:none;
+    background-color: #3b3f46;
+    color:white;
+    box-shadow: 0 0 10px #aa4c0a;
+}
+.overlay-button:hover{
+    box-shadow: 0 0 20px  #db1a1a;
+    font-size:17px;
+}
+.overlay{
+    height: 86%; 
+    width: 100%; 
+    background-color: rgba(255, 255, 255, 0.7); 
+    position: absolute; 
+    transform: scaleY(0); 
+    transform-origin: bottom; 
+    transition: transform 0.4s ease,opacity 0.4s ease;
+    opacity: 0; 
+    border-radius: 10%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-shadow:5px 5px 10px #2c2c2c;
+}
+
+.active {
+    transform: scaleY(1); 
+    opacity:1;
+}
+.cancel{
+    position: absolute;
+    bottom:269px;
+    left:311px;
+    color: #2c2c2c;
+    border: none;
+    background-color: transparent;
+}
+.bo{
+    display: none;
+}
+.coontent{
+    padding-left:8px;
+    padding-top: 10px;
+    color:#3b3f46
+}
+.header{
+    position: absolute;
+    top:550px;
+    padding-top: 25px;
+    padding-left: 20px;;
+    text-shadow: 0 0 16px #d0c09e;
+    font-family: "DM Serif Text", serif;
+
+}
+.szn{
+    margin-left: 20px;
+    padding-top: 30px;
+    color:black;
+    text-shadow: 0 0 16px #d0c09e;
+    font-family: "DM Serif Text", serif;
+
+}
+.images{
+    height:20%;
+    position: absolute;
+    left:-130px;
+    top:22px;
+    opacity: 0.8;
+    box-shadow: 2px 2px 8px #026635;
+}
+.images:hover{
+    opacity: 1;
+    box-shadow: 4px 4px 10px #026635;
+}
+.nav-div{
+    height:10px;
+    position: absolute;
+    left:1050px;
+    padding-top: 20px;
+    display:flex;
+    align-items: center;
+    font-size: larger;
+    justify-content: space-between;
+    
+}
+.nav-div:hover{
+    cursor: pointer;
+}
+.linkerr{
+position: absolute;
+left:110px;
+}
+#scrollButton{
+    border: none;
+    background-color:transparent;
+    position: absolute;
+    left:1190px;
+    top:480px;
+}
+#scrollButton:hover{
+    border-radius: 50%;
+    background-color: #009933;
+    box-shadow: 0 0 15px #009933;
+}
+.sidebar{
+    position: absolute;
+    top:205px;
+    font-size: x-large;
+    padding-left: 10px;
+    font-family: "DM Serif Text", serif;
+    padding-left: 20px;
+
+
+}
+.sidebar a{
+    text-decoration: none;
+    color:black;
+}
+#footer{
+    background-color: transparent;
+    position: absolute;
+    top:1460px;
+    width:100%;
+}
+.spinner2{
+    width: 6rem; 
+    height: 6rem;
+    position: absolute;
+    top:300px;
+    left:590px;
+    opacity:0;
+    color:#777777;
+}
+@media screen and (max-width: 1200px) {
+    .video {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80%;
+    }
+    .cards {
+        justify-content: center;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 300px;
+        height: 300px;
+    }
+    .overlay-button {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .sidebar {
+        font-size: large;
+        position: relative;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .header {
+        top: 500px;
+        text-align: center;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .nav-div {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 250px;
+        height: 250px;
+    }
+    .szn {
+        text-align: center;
+    }
+    .images {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #scrollButton {
+        left: 50%;
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .video {
+        width: 90%;
+        height: auto;
+    }
+    .header {
+        font-size: 24px;
+    }
+    .overlay-button {
+        font-size: 14px;
+    }
+    .cards {
+        padding: 0;
+    }
+    .card1, .card2, .card3, .card4, .card5, .card6 {
+        width: 90%;
+        height: auto;
+    }
+    .footer {
+        text-align: center;
+        padding: 10px;
+    }
+}
